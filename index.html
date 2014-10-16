@@ -12,7 +12,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Portfolio</title>
+  <title>Derek Snow | Front-End Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -20,8 +20,8 @@
   <link rel="stylesheet" href=
   "components/bootstrap/dist/css/bootstrap.min.css">
   <link href=
-  'http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Lato|Open+Sans+Condensed:300' rel=
-  'stylesheet' type='text/css'>
+  'http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Lato|Open+Sans+Condensed:300|Source+Code+Pro:400,700'
+  rel='stylesheet' type='text/css'>
   <link href=
   "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel=
   "stylesheet">
@@ -36,42 +36,59 @@
   <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+  <!-- Fixed navbar -->
+
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand fadeInRight animated" href="/">Derek Snow</a>
+
+        <ul class="nav navbar-nav navbar-right fadeInLeft animated">
+          <li>
+            <a href="https://www.linkedin.com/in/derekbsnow"><i class=
+            "fa fa-linkedin"></i></a>
+          </li>
+
+
+          <li>
+            <a href="https://github.com/dereksnow"><i class=
+            "fa fa-github-alt"></i></a>
+          </li>
+
+
+          <li>
+            <a href="https://www.youtube.com/user/reellearning"><i class=
+            "fa fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 
   <header class="header">
     <div class="container">
-      <div class="row text-center fadeInUp animated">
-          <img class="center-block profile-img img-responsive" src=
-          "img/profile.jpg" alt="Derek Snow">
-
-          <div class="profile-brief">
-            <h1 class="name ">Derek Snow</h1>
-
-
-            <h2 class="job-position">Front-End Developer</h2>
+      <div class="row">
+        <div class=
+        "col-md-2 col-md-offset-3 col-xs-3 fadeInDownBig animated text-center">
+        <img class="center-block profile-img img-responsive" src=
+        "img/profile.jpg" alt="Derek Snow">
+        </div>
 
 
-            <ul class="list-inline social-icons">
-              <li>
-                <a href="https://www.linkedin.com/in/derekbsnow"><i class=
-                "fa fa-linkedin"></i></a>
-              </li>
-
-
-              <li>
-                <a href="https://github.com/dereksnow"><i class=
-                "fa fa-github-alt"></i></a>
-              </li>
-
-
-              <li>
-                <a href="https://www.youtube.com/user/reellearning"><i class=
-                "fa fa-youtube"></i></a>
-              </li>
-            </ul>
-          </div>
+        <div class="col-md-5 col-xs-9 fadeInUpBig animated">
+          <pre class="profile-brief">
+{ "name": "<strong>Derek Snow</strong>",
+  "title": "Front-End Developer",
+  "location": "Mobile, Al",
+  "github": "<a href="http://github.com/dereksnow">github.com/dereksnow</a>",
+  "linkedin": "<a href=
+"https://linkedin.com/in/derekbsnow">linkedin.com/in/derekbsnow</a>" }
+      
+</pre>
+        </div>
         <!-- Add the extra clearfix for only the required viewport -->
-
       </div>
     </div>
   </header>
@@ -81,55 +98,154 @@
     <div class="panel panel-default">
       <div class="panel-body">
         <div class="row">
-          <div class="col-md-9 col-sm-8 col-xs-8">
-            <h2>About Me</h2>
+          <h2 class="text-center">About Me</h2>
 
 
-	    <p>Hi! I'm a Front-End developer experienced in creating modern
-	    responsive web apps. I spend most of my time developing for the
-	    front-end, but I'm also experienced in writing back-end code.</p>
-	    <p>I spent the first half of my career working close to the
-	    hardware as an embedded system engineer, after which I shared my
-	    tech knowledge as an university computer science instructor.  I
-	    still enjoy sharing what I've learned and have created more than a
-	    few videos on programming. the Take a look at some of my projects below.</p>
+          <p>Hi! I'm a Front-End developer experienced in creating responsive
+          web apps. I got my start in the software industy as an embedded
+          systems engineer writing software in C and various assembly
+          languages, but over the past few years I've been doing most of my
+          coding in HTML, CSS and JavaScript. I also taught computer science as
+          a university instructor for eight years and I still enjoy sharing
+          what I've learned through video and written tutorials. Check out some
+          of my projects below.</p>
+        </div>
+
+
+        <div class="row text-center">
+          <h2>Projects</h2>
+        </div>
+
+
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://dereksnow.github.io/groket/">
+<img class="img-responsive" src=
+          "img/groket-snap.png" alt="groket"></a>
           </div>
 
 
-          <div class="col-md-3 col-sm-4 col-xs-4 panel-skills text-center pull-right">
-            <div class="standout top">I like to use</div>
-            <ul class="list-unstyled">
-              <li>HTML &amp; CSS</li>
+          <div class="col-md-5">
+            <h3>groket</h3>
 
-              <li>JavaScript &amp; jQuery</li>
 
-              <li>Bootstrap</li>
-
-              <li>AngularJS</li>
-              <li>and Meteor</li>
-            </ul>
-            <div class="standout bottom">to create web apps</div>
+            <p class="text-left">Tutorial website for learning HTML and CSS
+            concepts. Includes JSbin code playgrounds for most lessons to allow
+            for in browser experimentation. This website was built with
+	    Bootstrap, the front-end web framework.</p>
+            <a href=
+            "http://dereksnow.github.io/groket/">dereksnow.github.io/groket/</a>
           </div>
         </div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col"></div>
-	</div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col"></div>
-	</div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col"></div>
-	</div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col"></div>
-	</div>
+
+
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://bitscoop.meteor.com">
+<img class="img-responsive" src=
+          "img/bitscoop-snap.png" alt="Bitscoop"></a>
+          </div>
+
+
+          <div class="col-md-5">
+            <h3>Bitscoop</h3>
+
+
+            <p class="text-left">Real-time average bitcoin price charts and
+            information website. This site was built with D3, the JavaScript
+            data visualization library, Meteor, the full-stack JavaScript
+            web application framework and Bootstrap.</p>
+            <a href="http://bitscoop.meteor.com">bitscoop.meteor.com</a>
+	    <p class="text-left">Note: This site is hosted on Meteor's servers and instances are
+	    shutdown if the site isn't accessed after some period of time. If you receive
+	    "Site is down...", perform a refresh and the site should load.</p>
+          </div>
+        </div>
+
+
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://dereksnow.github.io/startwith">
+<img class="img-responsive" src=
+          "img/move_stuff.png" alt="Movie Stuff"></a>
+          </div>
+
+
+          <div class="col-md-5">
+            <h3>Movie Stuff</h3>
+
+
+            <p class="text-left">Web app that let's you search for movie
+	    listings by actor's name. This website makes AJAX calls to TMDb
+	    API to get movie information. Built with
+	    Bootstrap and jQuery. </p>
+            <a href="http://dereksnow.github.io/startwith">dereksnow.github.io/startwith</a>
+          </div>
+        </div>
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://moodyweather.meteor.com">
+<img class="img-responsive" src=
+          "img/moodyweather.png" alt="Moody Weather"></a>
+          </div>
+
+
+          <div class="col-md-5">
+            <h3>Moody Weather</h3>
+
+
+            <p class="text-left">Web app that let's you get local weather
+	    information by zip code, city-state or city-country. The website makes AJAX calls to the the Open Weather Map API. Built with Meteor and jQuery.</p>
+            <a
+		    href="http://moodyweather.meteor.com">moodyweather.meteor.com</a>
+	    <p class="text-left">Note: This site is hosted on Meteor's servers and instances are
+	    shutdown if the site isn't accessed after some period of time. If you receive
+	    "Site is down...", perform a refresh and the site should load.</p>
+          </div>
+        </div>
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://hyrode.meteor.com">
+<img class="img-responsive" src=
+          "img/hyrode-snap.png" alt="hyrode"></a>
+          </div>
+
+
+          <div class="col-md-5">
+            <h3>Hyrode</h3>
+
+
+            <p class="text-left">Learning content social bookmarking website
+	    that provides users the ability to rate, tag, specify features and
+	    share learning content. This web app uses Meteor and Bootstrap,
+	    and is based on the Microscope project by Tom Coleman and Sacha
+	    Grief.</p>
+            <a
+		    href="http://hyrode.meteor.com">hyrode.meteor.com</a>
+	    <p class="text-left">Note: This site is hosted on Meteor's servers and instances are
+	    shutdown if the site isn't accessed after some period of time. If you receive
+	    "Site is down...", perform a refresh and the site should load.</p>
+          </div>
+        </div>
+        <div class="row projects text-center">
+          <div class="col-md-7"><a href="http://youtube.com/user/ReelLearning">
+<img class="img-responsive" src=
+          "img/reellearning-snap.png" alt="Reel Learning"></a>
+          </div>
+
+
+          <div class="col-md-5">
+            <h3>Reel Learning</h3>
+
+            <p class="text-left">Youtube channel with videos on programming in
+	    C++ and Python. Covers topics from control structures and problem
+	    solving techniques to pointers and data structures. Close to 9,000
+	    subscribers.</p>
+            <a
+		    href="http://youtube.com/user/ReelLearning">youtube.com/user/ReelLearning</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+  <footer>
+    <div class="container">© Derek Snow 2014</div>
+  </footer>
   <script src="components/jquery/dist/jquery.min.js">
 </script> <script src="components/bootstrap/dist/js/bootstrap.min.js">
 </script>

@@ -76,6 +76,9 @@ a:hover {
 .profile-brief {
     font-family: 'Source Code Pro';
 }
+.profile-img-col {
+    padding-right: 0;
+}
 .header pre {
     font-size: 14px;
     word-wrap: normal;
@@ -122,7 +125,8 @@ footer {
     .header pre {
         font-size: 10px;
     }
-    #main p, .projects p,
+    #main p,
+    .projects p,
     .projects a {
         font-size: 16px;
     }

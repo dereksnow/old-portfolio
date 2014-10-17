@@ -37,11 +37,11 @@ a:hover {
     font-weight: 700;
 }
 .navbar-default .navbar-brand {
-    color: #45F3BC;
+    color: #fcfcfc;
     font-size: 30px;
 }
 .navbar-default .navbar-brand:hover {
-    color: #45F3BC;
+    color: #fcfcfc;
 }
 .container>.navbar-header,
 .container-fluid>.navbar-header,
@@ -96,6 +96,14 @@ a:hover {
 }
 .panel.panel-default {
     padding: 30px;
+}
+.panel-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+.panel-body>.row>p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .projects {
     border: 1px solid #ededed;

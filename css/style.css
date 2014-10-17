@@ -107,17 +107,23 @@ footer {
     padding: 10px;
 }
 /* Large displays */
+
 @media (min-width: 1200px) {
     .header pre {
         font-size: 16px;
     }
 }
 /* Extra small devices (phones, less than 768px) */
+
 @media (max-width: 767px) {
     .navbar-right {
         float: right!important;
     }
     .header pre {
-        font-size: 13px;
+        font-size: 11px;
+    }
+    #main p, .projects p,
+    .projects a {
+        font-size: 16px;
     }
 }
